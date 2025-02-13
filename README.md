@@ -20,3 +20,17 @@ This project aims to create an automated SOC using open-source tools for securit
 ```bash
 git clone https://github.com/jkiala2/soc.git
 cd soc
+
+### 2️⃣ Deploy with Docker
+docker-compose up -d
+
+### 3️⃣ Deploy with Kubernetes
+kubectl apply -f k8s/
+
+### 📖 Documentation
+Find all documentation in /docs.
+
+
+
+ 
+
